@@ -38,6 +38,39 @@
             footer {
                 font-size: small;
             }
+            article {
+                background-color: rgb(70, 140, 253);
+                border-radius: 20px;
+                margin: 15px;
+            }
+            #arttitle {
+                margin: 15px;
+            }
+            #artbody {
+                margin: 15px;
+            }
+            section {
+                background-color: rgb(41, 119, 246);
+                border-radius: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            #secttitle {
+                margin: 15px;
+            }
+            #arttitle a {
+                text-decoration: none;
+            }
+            #arttitle a:hover {
+                text-decoration: underline;
+            }
+            #sectend {
+                margin: 15px;
+            }
+            img {
+                border-radius: 20px;
+                margin-left: 15px;
+            }
         </style>
     </head>
     <body>
@@ -47,10 +80,15 @@
             <li><a href="textbooks.html">Textbooks</a></li>
             <li><a href="https://qtechinnovation.github.io/NotesMafia/contribute.html">Contribute</a></li>
         </ul>
-        <h2>Blog</h2>
-        <h3>TextbookSpace is here!</h3>
-        <img src="Assets/D68AEBF0-20F6-47D3-BF77-068C586B2369_1_201_a.jpeg" width="500">
-        <p>TextbookSpace is your one-stop shop for all textbook PDF needs! <a href="https://qtechinnovation.github.io/NotesMafia/textbooks.html">Read More</a></p>
+        <section>
+            <h2 id="secttitle">Blog</h2>
+            <article>
+            <h3 id="arttitle"><a href="https://qtechinnovation.github.io/NotesMafia/textbooks.html">TextbookSpace is here!</a></h3>
+            <img src="Assets/D68AEBF0-20F6-47D3-BF77-068C586B2369_1_201_a.jpeg" width="500">
+            <p id="artbody">TextbookSpace is your one-stop shop for all textbook PDF needs!</p>
+            </article>
+            <p id="sectend">It seems like you have reached the end. Goodbye, for now.</p>
+        </section>
     </body>
     <footer>
         <p>Copyright (c) Qtechinnovation licensed under the MIT License</p>
